@@ -1,0 +1,8 @@
+Locate the city or location name within the provided text: {{$input}}}
+and provide the city's name along with a brief history, limited to two lines, in JSON format like this:
+
+example
+{
+    "cityname": "cityNameHere",
+    "history": "brief history of the city here"
+}

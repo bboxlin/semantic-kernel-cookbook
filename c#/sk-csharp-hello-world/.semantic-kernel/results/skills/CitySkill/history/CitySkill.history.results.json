@@ -1,0 +1,42 @@
+{
+    "version": "1.0",
+    "skillName": "CitySkill",
+    "functionName": "history",
+    "description": "find the city or location",
+    "filePath": "skills\\CitySkill\\history\\skprompt.txt",
+    "results": [
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion",
+                "modelId": null
+            },
+            "requestSettings": {
+                "temperature": 0,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 50,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "I am going to CHina"
+                }
+            ],
+            "output": {
+                "prompt": "Locate the city or location name within the provided text: I am going to CHina}\r\n",
+                "durationInMilliseconds": 754.7585,
+                "inputTokens": 20,
+                "outputTokens": 2,
+                "result": "\nChina",
+                "textCompletionResult": "\nChina"
+            }
+        }
+    ]
+}
